@@ -1,0 +1,22 @@
+button {
+  all: unset;
+  font-weight: 500;
+  color: var(--stroke-highlight);
+
+  padding: 0.75rem 1.5rem;
+
+
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+
+  &.btn-primary {
+    color: white;
+    background-color: #E43A12;
+  }
+
+}
+
+button .bnt-secondary {
+  
+}

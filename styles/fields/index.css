@@ -21,7 +21,7 @@ label {
 
 input:focus,
 select:focus,
-textarea:focus
+textarea:focus,
 input[type="date"]:focus-within { /* comando focus-within é usado para manter o foco em cada elemento ao passar pelo tab */
   outline: 0.25rem solid var(--surface-secondary);
   border: 0.125rem solid var(--stroke-highlight);

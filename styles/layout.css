@@ -49,3 +49,29 @@ aside {
     }
   }
 }
+
+@media (width <= 31.25em) {
+   #app {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: auto;
+    
+    & main {
+      overflow: initial;
+      max-width: 22.5rem;
+      margin-inline: auto;
+      padding: 1.5rem;
+    }
+    
+    & aside {
+      display: block;
+      max-width: 22.5rem;
+      margin-inline: auto;
+      padding: 1.5rem;
+
+      & header img {
+        margin-left: 15%;
+      }
+    }
+  }
+}

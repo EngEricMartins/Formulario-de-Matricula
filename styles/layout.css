@@ -68,6 +68,7 @@ aside {
       max-width: 22.5rem;
       margin-inline: auto;
       padding: 1.5rem;
+      background-color: inherit;
 
       & header img {
         margin-left: 15%;

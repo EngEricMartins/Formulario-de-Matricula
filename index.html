@@ -29,7 +29,7 @@
         <h1>Formulário de Matrícula</h1>
         <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
 
-        <form method="post" enctype="multipart/form-data">
+        <form id="formulary" method="post" enctype="multipart/form-data">
           <fieldset class="child-info">
             <legend>Informações da Criança</legend>
 
@@ -97,11 +97,11 @@
               <input  id="cep" type="text" name="cep">
             </div>
 
-            <div class="flex">
+            <div class="flex mobile-grid">
               <div class="input-wrapper flex-2">
                 <label for="street">Rua</label>
                 <input  id="street" type="text" name="street"
-                value="Rua das Flores" disabled>
+                placeholder="Rua das Flores">
               </div>
 
               <div class="input-wrapper flex-1">
@@ -110,17 +110,17 @@
               </div>
             </div>
 
-            <div class="flex">
+            <div class="flex mobile-grid">
               <div class="input-wrapper flex-2">
                 <label for="city">Cidade</label>
                 <input  id="city" type="text" name="city"
-                value="São Paulo" disabled>
+                placeholder="São Paulo">
               </div>
 
               <div class="input-wrapper flex-1">
                 <label for="state">Estado</label>
                 <input  id="state" type="text" name="state"
-                value="SP" disabled>
+                placeholder="SP">
               </div>
             </div>
           </fieldset>
@@ -233,7 +233,7 @@
           </div>
 
           <div class="actions-wrapper">
-            <button class="button-secondary" type="button">
+            <button id="btn-sec" class="button-secondary" type="button">
               Salvar Respostas
             </button>
 
